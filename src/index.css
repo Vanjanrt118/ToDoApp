@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(117, 158, 158);
+}
+.buttonAdd {
+  float: right;
+}
+.task {
+  background-color: rgb(255, 249, 249);
+
+  width: 50%;
+
+}
+.reminder {
+  border-left: 3px solid darkgreen;
+}
+.form-control input {
+  display: block;
+}
+.deleteButton{
+  float:right
+}
+
