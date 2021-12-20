@@ -9,7 +9,7 @@ function App() {
   const [tasks, setTasks]=useState([
 
 ])
-//useEfect koristimo kada zelimo da nam se podaci ucitaju kada se stranica ucita, prvi argument funkcija, a drugi su dependencies
+//useEfect se koristi nakon prvog renderovanja i posle svakog renderovanja, prvi argument funkcija, a drugi su dependencies
 useEffect(()=>{
 const fetchTasks=async ()=>{
   const res=await fetch("http://localhost:5000/tasks")
